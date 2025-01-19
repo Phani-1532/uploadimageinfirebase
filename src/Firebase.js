@@ -9,6 +9,8 @@ const firebaseConfig = {
     appId: "1:77181420055:web:598684c31cc3cf02499252"
   };
 
-const storage = firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
+const storage = firebase.storage()
 
 export default storage
